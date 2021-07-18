@@ -17,10 +17,12 @@ async function jokes() {
     p2.style.display = "block";
     loader.style.display = "none";
   } catch {
+    alert("Something Went Wrong!");
     console.log(`Something Went Wrong!`);
   }
 }
 
+// Everything
 btn.addEventListener("click", () => {
   p1.style.display = "block";
   loader.style.display = "block";
